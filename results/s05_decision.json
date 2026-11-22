@@ -1,0 +1,324 @@
+{
+  "content": {
+    "source": "probs_bert_robust.npz",
+    "targets": {
+      "auto_precision": 0.95,
+      "pass_recall": 0.95
+    },
+    "t_high": 0.8433797955513,
+    "t_low": 0.12683923542499542,
+    "valid": {
+      "auto_share": 0.4470533354066242,
+      "auto_precision": 0.9502608695652174,
+      "auto_recall": 0.8508252880722517,
+      "review_share": 0.08365728502565697,
+      "review_pos_rate": 0.5929368029739777,
+      "pass_share": 0.4692893795677189,
+      "final_recall": 0.9501712862036749,
+      "missed_in_pass": 160,
+      "wrongly_auto_disposed_share_of_safe": 0.04440993788819876,
+      "review_volume_saved_vs_full_review": 0.916342714974343
+    },
+    "test": {
+      "auto_share": 0.39996242720270525,
+      "auto_precision": 0.7721935180836074,
+      "auto_recall": 0.7802562885619364,
+      "review_share": 0.09768927296637235,
+      "review_pos_rate": 0.47884615384615387,
+      "pass_share": 0.5023482998309224,
+      "final_recall": 0.8984337921214998,
+      "missed_in_pass": 214,
+      "wrongly_auto_disposed_share_of_safe": 0.15080845771144277,
+      "review_volume_saved_vs_full_review": 0.9023107270336277
+    },
+    "sensitivity": [
+      {
+        "auto_precision_target": 0.9,
+        "recall_target": 0.9,
+        "auto_share": 0.4929551005072328,
+        "auto_precision": 0.7176067073170732,
+        "review_share": 0.0,
+        "final_recall": 0.893687707641196
+      },
+      {
+        "auto_precision_target": 0.9,
+        "recall_target": 0.95,
+        "auto_share": 0.4929551005072328,
+        "auto_precision": 0.7176067073170732,
+        "review_share": 0.004696599661844825,
+        "final_recall": 0.8984337921214998
+      },
+      {
+        "auto_precision_target": 0.9,
+        "recall_target": 0.98,
+        "auto_share": 0.4929551005072328,
+        "auto_precision": 0.7176067073170732,
+        "review_share": 0.10633101634416682,
+        "final_recall": 0.9501661129568106
+      },
+      {
+        "auto_precision_target": 0.95,
+        "recall_target": 0.9,
+        "auto_share": 0.39996242720270525,
+        "auto_precision": 0.7721935180836074,
+        "review_share": 0.03569415743002066,
+        "final_recall": 0.8338870431893688
+      },
+      {
+        "auto_precision_target": 0.95,
+        "recall_target": 0.95,
+        "auto_share": 0.39996242720270525,
+        "auto_precision": 0.7721935180836074,
+        "review_share": 0.09768927296637235,
+        "final_recall": 0.8984337921214998
+      },
+      {
+        "auto_precision_target": 0.95,
+        "recall_target": 0.98,
+        "auto_share": 0.39996242720270525,
+        "auto_precision": 0.7721935180836074,
+        "review_share": 0.19932368964869435,
+        "final_recall": 0.9501661129568106
+      },
+      {
+        "auto_precision_target": 0.98,
+        "recall_target": 0.9,
+        "auto_share": 0.2592523013338343,
+        "auto_precision": 0.8253623188405798,
+        "review_share": 0.1764042832988916,
+        "final_recall": 0.8338870431893688
+      },
+      {
+        "auto_precision_target": 0.98,
+        "recall_target": 0.95,
+        "auto_share": 0.2592523013338343,
+        "auto_precision": 0.8253623188405798,
+        "review_share": 0.23839939883524328,
+        "final_recall": 0.8984337921214998
+      },
+      {
+        "auto_precision_target": 0.98,
+        "recall_target": 0.98,
+        "auto_share": 0.2592523013338343,
+        "auto_precision": 0.8253623188405798,
+        "review_share": 0.3400338155175653,
+        "final_recall": 0.9501661129568106
+      }
+    ],
+    "recalibrated_on_half_test": {
+      "t_high": 0.9996002326474914,
+      "t_low": 0.010714440606534481,
+      "calib_half": {
+        "auto_share": 0.0003757985719654265,
+        "auto_precision": 1.0,
+        "auto_recall": 0.0009276437847866419,
+        "review_share": 0.6121758737316798,
+        "review_pos_rate": 0.6286065070595457,
+        "pass_share": 0.38744832769635473,
+        "final_recall": 0.950834879406308,
+        "missed_in_pass": 53,
+        "wrongly_auto_disposed_share_of_safe": 0.0,
+        "review_volume_saved_vs_full_review": 0.3878241262683202
+      },
+      "eval_half": {
+        "auto_share": 0.0007513148009015778,
+        "auto_precision": 1.0,
+        "auto_recall": 0.001943634596695821,
+        "review_share": 0.6010518407212622,
+        "review_pos_rate": 0.61375,
+        "pass_share": 0.3981968444778362,
+        "final_recall": 0.956268221574344,
+        "missed_in_pass": 45,
+        "wrongly_auto_disposed_share_of_safe": 0.0,
+        "review_volume_saved_vs_full_review": 0.39894815927873784
+      }
+    }
+  },
+  "fraud": {
+    "source": "probs_fraud.npz",
+    "targets": {
+      "auto_precision": 0.8,
+      "pass_recall": 0.8
+    },
+    "t_high": 0.38402400510056206,
+    "t_low": 0.027250310966304828,
+    "valid": {
+      "auto_share": 0.020475552106117265,
+      "auto_precision": 0.8001378359751895,
+      "auto_recall": 0.4468822170900693,
+      "review_share": 0.09530797996189938,
+      "review_pos_rate": 0.13591945513769618,
+      "pass_share": 0.8842164679319834,
+      "final_recall": 0.8002309468822171,
+      "missed_in_pass": 519,
+      "wrongly_auto_disposed_share_of_safe": 0.004248026132684899,
+      "review_volume_saved_vs_full_review": 0.9046920200381006
+    },
+    "test": {
+      "auto_share": 0.01700985538659532,
+      "auto_precision": 0.7202588352414137,
+      "auto_recall": 0.3560531496062992,
+      "review_share": 0.10524265926101534,
+      "review_pos_rate": 0.12831858407079647,
+      "pass_share": 0.8777474853523893,
+      "final_recall": 0.7485236220472441,
+      "missed_in_pass": 1022,
+      "wrongly_auto_disposed_share_of_safe": 0.0049279225562063765,
+      "review_volume_saved_vs_full_review": 0.8947573407389846
+    },
+    "sensitivity": [
+      {
+        "auto_precision_target": 0.6,
+        "recall_target": 0.7,
+        "auto_share": 0.03492566125918651,
+        "auto_precision": 0.49696969696969695,
+        "review_share": 0.033223829037829784,
+        "final_recall": 0.6338582677165354
+      },
+      {
+        "auto_precision_target": 0.6,
+        "recall_target": 0.8,
+        "auto_share": 0.03492566125918651,
+        "auto_precision": 0.49696969696969695,
+        "review_share": 0.08732685338842415,
+        "final_recall": 0.7485236220472441
+      },
+      {
+        "auto_precision_target": 0.6,
+        "recall_target": 0.9,
+        "auto_share": 0.03492566125918651,
+        "auto_precision": 0.49696969696969695,
+        "review_share": 0.17929352795746267,
+        "final_recall": 0.8506397637795275
+      },
+      {
+        "auto_precision_target": 0.7,
+        "recall_target": 0.7,
+        "auto_share": 0.024105056389067632,
+        "auto_precision": 0.615033368458026,
+        "review_share": 0.044044433907948655,
+        "final_recall": 0.6338582677165354
+      },
+      {
+        "auto_precision_target": 0.7,
+        "recall_target": 0.8,
+        "auto_share": 0.024105056389067632,
+        "auto_precision": 0.615033368458026,
+        "review_share": 0.09814745825854303,
+        "final_recall": 0.7485236220472441
+      },
+      {
+        "auto_precision_target": 0.7,
+        "recall_target": 0.9,
+        "auto_share": 0.024105056389067632,
+        "auto_precision": 0.615033368458026,
+        "review_share": 0.19011413282758152,
+        "final_recall": 0.8506397637795275
+      },
+      {
+        "auto_precision_target": 0.8,
+        "recall_target": 0.7,
+        "auto_share": 0.01700985538659532,
+        "auto_precision": 0.7202588352414137,
+        "review_share": 0.05113963491042097,
+        "final_recall": 0.6338582677165354
+      },
+      {
+        "auto_precision_target": 0.8,
+        "recall_target": 0.8,
+        "auto_share": 0.01700985538659532,
+        "auto_precision": 0.7202588352414137,
+        "review_share": 0.10524265926101534,
+        "final_recall": 0.7485236220472441
+      },
+      {
+        "auto_precision_target": 0.8,
+        "recall_target": 0.9,
+        "auto_share": 0.01700985538659532,
+        "auto_precision": 0.7202588352414137,
+        "review_share": 0.19720933383005385,
+        "final_recall": 0.8506397637795275
+      },
+      {
+        "auto_precision_target": 0.9,
+        "recall_target": 0.7,
+        "auto_share": 0.008390625529176686,
+        "auto_precision": 0.8678102926337034,
+        "review_share": 0.059758864767839606,
+        "final_recall": 0.6338582677165354
+      },
+      {
+        "auto_precision_target": 0.9,
+        "recall_target": 0.8,
+        "auto_share": 0.008390625529176686,
+        "auto_precision": 0.8678102926337034,
+        "review_share": 0.11386188911843398,
+        "final_recall": 0.7485236220472441
+      },
+      {
+        "auto_precision_target": 0.9,
+        "recall_target": 0.9,
+        "auto_share": 0.008390625529176686,
+        "auto_precision": 0.8678102926337034,
+        "review_share": 0.2058285636874725,
+        "final_recall": 0.8506397637795275
+      }
+    ],
+    "recalibrated_on_half_test": {
+      "t_high": 0.5376180075565056,
+      "t_low": 0.019447298898301532,
+      "calib_half": {
+        "auto_share": 0.012547837572391371,
+        "auto_precision": 0.8002699055330634,
+        "auto_recall": 0.29370975730559684,
+        "review_share": 0.14444406814102348,
+        "review_pos_rate": 0.11992966002344665,
+        "pass_share": 0.8430080942865852,
+        "final_recall": 0.8003962357602774,
+        "missed_in_pass": 403,
+        "wrongly_auto_disposed_share_of_safe": 0.002594897869729114,
+        "review_volume_saved_vs_full_review": 0.8555559318589765
+      },
+      "eval_half": {
+        "auto_share": 0.013513055847190706,
+        "auto_precision": 0.7807017543859649,
+        "auto_recall": 0.30464547677261616,
+        "review_share": 0.14424086429369729,
+        "review_pos_rate": 0.11857243484386006,
+        "pass_share": 0.842246079859112,
+        "final_recall": 0.7985330073349634,
+        "missed_in_pass": 412,
+        "wrongly_auto_disposed_share_of_safe": 0.0030696907505832413,
+        "review_volume_saved_vs_full_review": 0.8557591357063027
+      }
+    }
+  },
+  "llm_vs_bert_same_sample": {
+    "llm": {
+      "n": 300,
+      "pos_rate": 0.5,
+      "threshold": 0.5,
+      "precision": 0.775,
+      "recall": 0.41333333333333333,
+      "f1": 0.5391304347826087,
+      "macro_f1": 0.6263219741480611,
+      "accuracy": 0.6466666666666666,
+      "auc": 0.6466666666666667,
+      "pr_auc": 0.6136666666666667,
+      "ks": 0.29333333333333333
+    },
+    "bert": {
+      "n": 300,
+      "pos_rate": 0.5,
+      "threshold": 0.27999999999999997,
+      "precision": 0.7987421383647799,
+      "recall": 0.8466666666666667,
+      "f1": 0.8220064724919094,
+      "macro_f1": 0.8165015180328963,
+      "accuracy": 0.8166666666666667,
+      "auc": 0.8769333333333333,
+      "pr_auc": 0.8527148760460876,
+      "ks": 0.6333333333333333
+    }
+  }
+}

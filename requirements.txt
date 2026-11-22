@@ -1,0 +1,7 @@
+pandas>=1.5
+numpy>=1.23
+scikit-learn>=1.2
+lightgbm>=4.0
+transformers>=4.38
+pypinyin>=0.49
+# torch 需要单独装（见 运行说明.md 第 1 步），有 NVIDIA 显卡和没有显卡的装法不一样

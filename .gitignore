@@ -1,0 +1,6 @@
+data/
+models/
+__pycache__/
+*.pyc
+results/*.npz
+results/run_log.txt
